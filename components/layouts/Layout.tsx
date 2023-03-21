@@ -19,7 +19,7 @@ export const Layout: FC<Props> = ({children, title}) => {
             <meta name="keywords" content={`Pokemon, pikachu, pokedex, ${title}`}/>
             <meta property="og:title" content={title || "Poke App" } />
             <meta property="og:descrption" content={` esta es la pagina de ${ title }` } />
-            <meta property="og:image" content="http://localhost:3000/img/banner.jpeg" />
+            <meta property="og:image" content="https://next-pokemon-vercel-beta.vercel.app/img/banner.jpeg" />
 
         </Head>
         <Navbar/>
