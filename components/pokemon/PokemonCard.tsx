@@ -19,6 +19,7 @@ export const PokemonCard : FC<Props> = ({ pokemon }) => {
                 isHoverable
                 isPressable
                 onClick={() =>  cardPokemonAction( pokemon.id ) }
+                css={{ ds: "none" }}
               >
                 <Card.Body
                 css={{ 

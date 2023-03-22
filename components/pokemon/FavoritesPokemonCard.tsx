@@ -17,7 +17,7 @@ export const FavoritesPokemonCard:FC<Props> = ({id}) => {
           <Card 
             isHoverable 
             isPressable 
-            style={{padding:10}}
+            css={{padding:10, ds: "none"}}
             onClick= {() => cardPokemonAction(id)}
           >
             <Card.Image
